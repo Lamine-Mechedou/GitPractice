@@ -1,22 +1,17 @@
-h2:hover{
-    color:red
+#title{
+   color:rgb(217, 96, 9);
 }
-
 .subtitle{
-    color:blue;
-}
-#services{
-    color:green;
+    color:rgb(237, 128, 55);
 }
 
-li:nth-child(2){
-    color:green;
+body{
+    background:linear-gradient(to bottom,rgb(204,229,255), rgba(204,229,255,0.4));
 }
-
-#google-link:link{
-  color:blue;
-}
-
-#google-link:visited{
-    color:red;
+#service-image{
+   height:400px;
+    width:70%;
+    background: radial-gradient(circle,red 10%,blue 30%,green 30%);
+    
+ 
 }

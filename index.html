@@ -8,25 +8,32 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-    <h1>My website</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo officia, obcaecati quas molestias sint quibusdam ex facilis dicta harum, possimus quam corrupti vel fugit repellendus nostrum ratione, officiis impedit?</p>
+    <h1 id="title">My website</h1>
+    <p class="para-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo officia, obcaecati quas molestias sint quibusdam ex facilis dicta harum, possimus quam corrupti vel fugit repellendus nostrum ratione, officiis impedit?</p>
  
     <h2 class="subtitle">About me</h2>
     <img src="../images/arbol.jpg">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cum quia eaque quasi illo maiores iste earum saepe ipsum dignissimos fugiat ex cumque perspiciatis, quis eveniet fugit, ut repellat architecto!
+    <p class="para-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cum quia eaque quasi illo maiores iste earum saepe ipsum dignissimos fugiat ex cumque perspiciatis, quis eveniet fugit, ut repellat architecto!
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, omnis magnam delectus laboriosam minima in, officia totam nulla, harum illum aut ab velit enim aperiam deleniti nisi eveniet provident voluptates?
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi fugit magni voluptates explicabo eligendi distinctio natus impedit asperiores non! Dolore, similique voluptates quasi incidunt veritatis at aperiam a magni.
     
 
     <ul>
+        <li class="para-text">Lorem ipsum dolor sit</li>
         <li>Lorem ipsum dolor sit</li>
         <li>Lorem ipsum dolor sit</li>
-        <li>Lorem ipsum dolor sit</li>
+
+        <li>
+            <ol>
+                <li class="para-text">My numbered list Item</li>
+            </ol>
+        </li>
     </ul>
 </p>
 
-     <a href="https://www.google.com" id="google-link">Go to the page of google</a>
-     <h2 id="services">Services</h2>
+     
+     <h2 class="subtitle">Services</h2>
+     <a href="https://www.google.com" id="google-link" class="link">Go to the page of google</a>
 <table border="1">
     <thead>
         <tr>
@@ -42,12 +49,12 @@
     </thead>
 </table>
 
-<img src="../images/island.jpg">
-<h2 id="contact-us">Contact us</h2>
+<div id="service-image"></div>
+<h2 class="subtitle">Contact us</h2>
 
 <form>
-    <input type="text" placeholder="Full Name">
-    <input type="email" placeholder="Email">
+    <input type="text" placeholder="Full Name" class="form-input">
+    <input type="email" placeholder="Email" class="form-input">
     <textarea></textarea>
     <button>Submit</button>
 </form>
