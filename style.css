@@ -1,17 +1,37 @@
 #title{
    color:rgb(217, 96, 9);
+   font-weight: 400;
+   font-family: sarabun;
 }
 .subtitle{
     color:rgb(237, 128, 55);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background:linear-gradient(to bottom,rgb(204,229,255), rgba(204,229,255,0.4));
+    font-family: 'Roboto Mono', monospace;
+ 
+  
 }
 #service-image{
-   height:400px;
-    width:70%;
-    background: radial-gradient(circle,red 10%,blue 30%,green 30%);
-    
  
+   height:400px;
+    width:70vw;
+    background: radial-gradient(circle,red 10%,blue 30%,green 30%);
+   
+    border:20px solid rgb(0,8,2);
+}
+
+.link{
+    text-decoration: line-through;
+}
+
+.italics{
+    font-style: italic;
+}
+
+#about-us-image{
+    height:300px;
+    width:60vw
 }
